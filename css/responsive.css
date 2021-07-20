@@ -1,0 +1,438 @@
+/*Asus Zenfone 5Z portrait */
+@media screen and (min-device-width: 412px) and (max-device-width: 856px)
+and (orientation: portrait) 
+and (-webkit-max-device-pixel-ratio: 3) {
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 30rem;
+    font-size: 12px;
+  }
+
+  #portfolio{
+    padding-top: 4rem;
+  }
+  #accordion{
+    height: 32rem;
+    overflow: auto;
+  }
+
+  .btn-light{
+    font-size: 9px;
+  }
+  
+  .fa{
+    margin-inline: 5px;
+  }
+
+  .fa-github-square{
+    font-size: 30px;
+  }
+  
+  .fa-link{
+    font-size: 27px;
+  }
+
+  .list-group-item-heading{
+    font-size: 18px;
+    }
+  
+  .list-group-item-text{
+     font-size: 10px;
+   }
+
+  .label{
+    font-size: 16px;
+  }
+  
+  .edu-desc{
+    border: none;
+    font-size: 10px;
+  }
+
+}
+
+/*Asus Zenfone 5Z landscape */
+@media screen and (max-device-width: 856px) and (orientation: landscape) 
+and (-webkit-max-device-pixel-ratio: 2.625) {
+  #home{
+    padding-top: 4rem;
+    height: 14rem;
+  }
+
+  #portfolio{
+    padding-top: 4rem;
+  }
+
+  #accordion{
+    height: 30rem;
+    overflow: auto;
+  }
+
+  #cv{
+    padding-top: 4rem;
+  }
+
+  iframe{
+    width: 720px;
+    height: 400px;
+  }
+
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 29rem;
+  }
+
+  .btn-light{
+    font-size: 10px;
+  }
+
+  .fa-github-square{
+    font-size: 30px;
+  }
+
+  .btn-info{
+    font-size: 12px;
+  }
+
+  #contact img {
+    height: 30px;
+    width: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+}
+
+/*Iphone 6/7/8 portrait*/
+@media screen and (min-device-width: 375px) and (max-device-width: 667px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2){
+  #home{
+    padding-top: 4rem;
+    height: 22rem;
+  }
+  
+  #portfolio{
+    padding-top: 4rem;
+  }
+
+  #accordion{
+    height: 32rem;
+    overflow: auto;
+  }
+
+  #cv{
+    padding-top: 4rem;
+  }
+  
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 18rem;
+    font-size: 14px;
+  }
+
+  iframe{
+    width: 350px;
+    height: 600px;
+  }
+
+  #contact img {
+    height: 30px;
+    width: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  
+
+}
+
+/*Iphone 6/7/8 landscape*/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .card{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    
+    .card-body{
+      position: relative;
+      height: 34em;
+      font-size: 12px;
+    }
+
+    .btn-light{
+      font-size: 10px;
+    }
+
+    .fa-github-square{
+      font-size: 30px;
+    }
+
+    iframe{
+      width: 600px;
+      height: 600px;
+    }
+}
+
+/*Iphone 6/7/8 plus landscape*/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    #home{
+      padding-top: 4rem;
+      height: 16rem;
+    }
+    .card{
+      display: flex;
+      flex-flow: column wrap;
+    }
+    .card-header{
+      font-size: 18px;
+    }
+    .card-body{
+      position: relative;
+      height: 34em;
+      font-size: 16px;
+    }
+
+    .btn-light{
+      font-size: 9px;
+    }
+
+    .fa-github-square{
+      font-size: 30px;
+    }
+
+    iframe{
+      width: 700px;
+      height: 600px;
+    }
+
+    #contact img {
+      height: 30px;
+      width: 30px;
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+}
+
+/*Iphone X portrait*/
+
+@media screen and (min-device-width: 375px) and (max-device-width: 768px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 3){
+  #home{
+    padding-top: 4rem;
+    height: 22rem;
+  }
+  #about{
+    padding-top: 4rem;
+    height: 40rem;
+  }
+  #education{
+    padding-top: 4rem;
+    height: 40rem;
+  }
+  #experience{
+    padding-top: 4rem;
+    height: 41rem;
+  }
+  #skill{
+    padding-top: 4rem;
+    height: 34rem;
+  }
+
+  #portfolio{
+    padding-top: 2rem;
+  }
+
+  #accordion{
+    height: 30rem;
+    overflow: auto;
+  }
+
+  #cv{
+    padding-top: 6rem;
+  }
+
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+
+  }
+  
+  .card-body{
+    position: relative;
+    height: 18rem;
+  }
+
+  iframe{
+    width: 350px;
+    height: 600px;
+  }
+}
+
+/*Ipad portrait*/
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #home{
+      padding-top: 4rem;
+      height: 22rem;
+    }
+    .card{
+      display: flex;
+      flex-flow: column wrap;
+  
+    }
+    
+    .card-body{
+      position: relative;
+      height: 33rem;
+    }
+
+    #cv{
+      padding-top: 10rem;
+    }
+
+    iframe{
+      width: 720px;
+      height: 600px;
+    }
+  }
+
+  /*Ipad landscape*/
+  @media screen and (min-device-width: 1024px) and (max-device-width: 1200px) 
+  and (orientation: landscape) and  (-webkit-min-device-pixel-ratio: 2) {
+    #home{
+    padding-top: 4rem;
+    height: 22rem;
+  }
+  .card{
+    display: grid;
+    grid-template-rows: 2rem 23rem 3rem;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 23rem;
+  }
+
+  li{
+    font-weight: bold;
+    font-size: 15pt;
+  }
+
+  #cv{
+    padding-top: 5rem;
+  }
+
+  iframe{
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+
+/*Samsung Galaxy S9 portrait*/
+@media screen and (min-device-width: 360px) and (max-device-width: 740px)
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 4){
+  #portfolio{
+    padding-top: 4rem;
+  }
+
+  #accordion{
+    height: 32rem;
+    overflow: auto;
+  }
+
+  #cv{
+    padding-top: 4rem;
+  }
+
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 18rem;
+    font-size: 14px;
+  }
+
+  iframe{
+    width: 350px;
+    height: 600px;
+  }
+
+  .btn-light{
+    font-size: 9px;
+  }
+}
+
+/*Samsung Galaxy S9 landscape*/
+@media screen and (min-device-width: 740px) and (max-device-width: 1024px)
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 4){
+  #home{
+    padding-top: 4rem;
+    height: 18rem;
+  }
+
+  #portfolio{
+    padding-top: 4rem;
+  }
+
+  #accordion{
+    height: 34rem;
+    overflow: auto;
+  }
+
+  #cv{
+    padding-top: 4rem;
+  }
+
+  .card{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  .card-body{
+    position: relative;
+    height: 16rem;
+    font-size: 14px;
+  }
+
+  iframe{
+    width: 350px;
+    height: 600px;
+  }
+
+  .btn-light{
+    font-size: 9px;
+  }
+}

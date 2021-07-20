@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Projekt</title>
+	<meta charset="utf-8"/>
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/ext-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.2.0/classic/theme-crisp/resources/theme-crisp-all.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" /> 
+	<script type="application/javascript" src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script> 
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+	<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+	<script src="https://npmcdn.com/leaflet-geometryutil"></script>	
+	<script type="application/javascript" src="projekt_data/projekt_leaflet_extjs.js"></script>
+	
+	<script src="projekt_data/hostels.js"></script>
+	<script src="projekt_data/hikings.js"></script>
+	<script src="projekt_data/hotels.js"></script>
+	<script src="projekt_data/restaurants.js"></script>
+	
+
+	<style>
+	.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated { 
+		will-change:auto !important; 
+	}	
+	.gx-popup p {
+        padding: 5px 5px 0 5px;
+        border-radius: 7px;
+        background-color: rgba(255,255,255,0.85);
+        border: 3px solid white;
+        margin: 0;
+        text-align: west;
+    }
+	</style>
+	
+	</head>
+
+<body>
+	<div id="map" class="map"></div>
+    <div id='description'>
+        <p>
+            This example shows how you can use Leaflet with ExtJS.
+        </p>
+		<ul>
+			<li><nav><strong>Layers Control</strong> will let you how to control your base layers and geojson layers.</nav></li>
+			<li><nav><strong>Preclicked</strong> will view coordinates there clicked.</nav></li>
+			<li><nav><strong>Hovering</strong> will view hiking's, restaurant's, hotel's and hostel's name.</nav></li>
+			<li><nav><strong>Doubleclick</strong> click doubleclick to go back the original map.</nav></li>
+			<li><nav><strong>Buffer</strong> will create buffer around hikings.</nav></li>
+			<li><nav><strong>ZoomTo</strong> It zooms to layer when you click hikings.</nav></li>
+			<li><nav><strong>Black</strong> Hikings.</nav></li>
+			<li><nav><strong>Navy</strong> Hotels.</nav></li>
+			<li><nav><strong>Yellow</strong> Hostels.</nav></li>			
+			<li><nav><strong>Red</strong> Restaurants.</nav></li>
+		</ul>
+		<span>Information</span>
+		<div id="info" style="height:290px;overflow:auto"></div>
+		
+    </div>
+
+</body>
+</html>

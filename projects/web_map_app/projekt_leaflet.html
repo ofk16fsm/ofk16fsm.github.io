@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projekt</title>
+	<meta charset="utf-8"/>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" /> 
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script> 
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>		
+	<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+	<script src="https://npmcdn.com/leaflet-geometryutil"></script>
+	
+	<script src="projekt_data/hostels.js"></script>
+	<script src="projekt_data/hikings.js"></script>
+	<script src="projekt_data/hotels.js"></script>
+	<script src="projekt_data/restaurants.js"></script>
+
+	
+	<style>
+	#swipe {
+		position:absolute;
+		top: 0;
+		width: 66%;
+		z-index: 99;
+	}
+	.leaflet-top .leaflet-control-zoom {
+		top:20px;
+	}
+	.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated { 
+		will-change:auto !important; 
+	}	
+	#map {
+		position: absolute;
+		top: 25px;
+		width: 850px;
+		height: 560px;
+		border: 2px solid #73AD21;
+	}
+	#description{
+		position: relative;
+		top: 16px;
+		left: 860px;
+		width: 485px;
+		height: 560px;
+		border: 2px dotted gray;
+		font-size:10pt;
+	}
+	#info{
+		width: 475px;
+		height: auto;
+		font-family: Courier New;
+		font-size:9pt;
+		padding-left: 10px;
+	}
+	span{
+		font-size:12pt;
+		padding-left: 10px;
+	}
+	p{
+		font-size:12pt;
+		text-align: center;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="map" class="map"></div>
+	<!--<input id="swipe" type="range"/>-->
+    <div id='description'>
+        <p>
+            This project is about showing hikings, hotels, restaurants and hostels in Sweden.
+        </p>
+		<ul>
+			<li><nav><strong>Layers Control</strong> will let you how to control your base layers and geojson layers.</nav></li>
+			<li><nav><strong>Preclicked</strong> will view coordinates there clicked.</nav></li>
+			<li><nav><strong>Hovering</strong> will view hiking's, restaurant's, hotel's and hostel's name.</nav></li>
+			<li><nav><strong>Doubleclick</strong> click doubleclick to go back the original map.</nav></li>
+			<li><nav><strong>Buffer</strong> will create buffer around hikings.</nav></li>
+			<li><nav><strong>ZoomTo</strong> It zooms to layer when you click hikings.</nav></li>
+			<li><nav><strong>Black</strong> Hikings.</nav></li>
+			<li><nav><strong>Navy</strong> Hotels.</nav></li>
+			<li><nav><strong>Yellow</strong> Hostels.</nav></li>			
+			<li><nav><strong>Red</strong> Restaurants.</nav></li>
+		</ul>
+		<span>Information</span>
+		<div id="info" style="height:290px;overflow:auto"></div>
+		
+    </div>
+	<script type="text/javascript" src="projekt_data/projekt_leaflet.js"></script>
+</body>
+</html>

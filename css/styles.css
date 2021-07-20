@@ -1,0 +1,179 @@
+html {
+  margin: 0;
+  padding: 0;
+  transform-origin: 0 0;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  font-family: 'Handlee', cursive;
+  font-size: 12pt;
+}
+
+
+#home {padding-top:75px;height:395px;color: darkred; background-color: #FFFFF0;}
+#about {padding-top:80px;height:615px;color: darkred; background-color: #FFFFF0;}
+#education {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
+#experience {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
+#skill {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
+#portfolio {padding-top:75px;height:615px;color: #fff; background-color: #FFFFF0;}
+#cv {padding-top:75px;height:650px;color: darkred; background-color:#FFFFF0}
+
+.list-group-item{
+  border: none;
+  background-color: gray;
+}
+
+.list-group-item-text{
+  color: darkred;
+}
+
+h1 {
+  font-size: 15pt;
+  color: #6d0e0e;
+  text-align: center;
+  padding: 8px 0 8px 0;
+  margin: 0 0 5px 0;
+}
+
+.underline {
+  width: 4rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: #2caeba;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+.img-circle {
+  border: 3px solid #2caeba;
+  border-radius: 50%;
+}
+
+#home img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.summary {
+    font-size: 12pt;
+    color: darkred;
+    padding-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.info{
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+li {
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+#contact {
+  background-color: beige;
+  text-align: center;
+}
+
+#contact img {
+  height: 50px;
+  width: 50px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+#contact img:hover {
+  opacity: 0.8;
+}
+
+.contact-detail{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.column{
+  width: 250px;
+  text-align: left;
+}
+
+.phone{  
+  margin-left: 10px;
+}
+
+.mail{
+  margin-left: 5px;
+}
+
+.card-header{
+  color:darkred;
+  background-color: cyan;
+  text-align: center;
+  border:none;
+}
+
+.card{
+  background-color: gray;
+  border: none;
+  margin-inline: 3px;
+}
+
+.card-footer{
+  border:none;
+}
+
+.fa{
+  margin-inline: 5px;
+}
+
+.fa-github-square{
+  color: mintCream;
+  font-size: 36px;
+}
+
+.fa-link{
+  color: mintCream;
+  font-size: 36px;
+  transform: rotate(-90deg);
+}
+
+.card-body{
+  position: relative;
+  height: 20rem;
+}
+
+.portfolio-btn{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+}
+
+.btn-light{
+  border-radius: 25px;
+  margin-inline: 4px;
+  text-decoration: none;
+  display: grid;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.label{
+  float: right;
+  background-color: navy;
+  color: mintcream;
+  border-radius: 5px;
+  font-size: 20px;
+}

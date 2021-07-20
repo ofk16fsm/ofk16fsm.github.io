@@ -1,0 +1,91 @@
+[{
+    "skills":[
+        {
+            "category": "programming languages",
+            "keywords": ["Java", "Python (Numpy)", "CSharp (.NET)", "JavaScript (jQuery)", "Kotlin", "Matlab"]
+        },
+        {
+            "category" : "front-end",
+            "keywords": ["ReactJS", "Bootstrap", "Dojo toolkit", "ExtJS"]
+        },
+        {
+            "category": "back-end",
+            "keywords": ["Django", "REST API"]
+        },
+        {
+            "category": "database",
+            "keywords": ["SQL", "PL/SQL", "PostgreSQL", "SpatiaLite", "XML(DTD,XSD,XSLT)", "CSV", "JSON"]
+        },
+        {
+            "category": "GIS",
+            "keywords": ["ArcGIS", "QGIS", "CSharp (ArcObjectsSDKNet)", "Python (arcpy)", "JavaScript (OpenLayers, Leaflet)"]
+        },
+        {
+            "category": "design software",
+            "keywords": ["Eclipse", "Visual Studio", "PyCharm", "Intellij Idea", "Notepad++", "Microsoft Office", "LibreOffice", "LaTeX"]
+        },
+        {
+            "category": "languages",
+            "keywords":["Swedish", "English", "Kurdish", "Turkish", "Mandarin", "Spanish", "German"]
+        }
+    ],
+  
+  "profiles": [{
+
+            "url": "https://github.com/ofk16fsm", "title": "GitHub", "img": "icons/github.png"
+
+        },
+        {
+            "url": "https://www.linkedin.com/in/ferhat-sevim-6b3a521b0/", "title": "LinkedIn", "img": "icons/linkedin.ico"
+        },
+        {
+            "url": "https://www.sololearn.com/Profile/2352584", "title": "SoloLearn", "img": "icons/sololearn.ico"
+        }
+ ],
+ "educations": [{
+
+            "program": "", "course": "Programming techniques", "institution": "Stockholm University","location": "Stockholm, Sweden", "startDate": "Oct. 2017", "endDate": "Nov. 2018", "description": ["Basic computer science concepts and processes: data structures and simple graphics."]
+        },
+        {
+            "program": "", "course": "Preparation Course in Programming and Computer Science", "institution": "Royal Institute of Technology",  "location": "Stockholm, Sweden", "startDate": "Mar. 2017", "endDate": "Mar. 2017", "description": ["Basic knowledge of computer and programming in Python."]
+        },
+        {
+            "program": "IT Systems Development in Geographical Information Systems", "course": "", "institution": "University of Gävle", "location": "Gävle, Sweden", "startDate": "Sep. 2016", "endDate": "", "description": ["IT System Development in Geographical Information Systems focuses on the development of software and systems with a special direction on geographical information systems (GIS)."]
+        },
+        {
+            "program": "", "course": "History of Mathematics", "institution": "Uppsala University", "location": "Uppsala, Sweden", "startDate": "Feb. 2016", "endDate": "Jun. 2016", "description": ["How mathematic has evolved through the times."]
+        },
+        {
+            "program": "", "course": "Chinese", "institution": "Tamkang University", "location": "Taipei, Taiwan", "startDate": "Feb. 2016", "endDate": "Jun. 2016", "description": ["Basic education in the language."]
+        },
+        {
+            "course": "High school", "institution": "Municipal adult education", "location": "Uppsala, Sweden", "startDate": "Jan. 2008", "endDate": "Mar. 2013", "description": ["Service and bar technique training", "Store and trade training"]
+        }
+    ],
+    "works": [{
+            "company": "Restaurang Meza", "position": "Waiter", "location": "Uppsala/Sweden", "startDate": "Mar. 2013", "endDate" : "Oct. 2015"
+        }
+    ],
+    "projects": [{
+      "title": "Flood application",
+      "description": "This project was created during the course GIS-application. The project would calculate and show the areas which could have risk for flood. Geographic information system (GIS) application that runs from a custom menu in ArcMap. The application allows the user to process a raster file.",
+      "tech_stack": "C#, ArcGIS API",
+      "tool": "Visual studio, ArcMap",
+      "url": "https://github.com/ofk16fsm/DVG304/tree/main/Projekt"
+    },
+    {
+      "title": "Web based map application",
+      "description": "Leaflet was used to build interactive map about hiking, hotels, restaurants and hostels in Sweden. Leaflet.GeometryUtil was assigned to use a method which returns the n closest layers from the chosen point of the user. Turfjs was used to calculate buffer a specific area and find points within multipolygons. ExtJS is an application framework to build interactive web applications by creating dynamic grids.",
+      "tech_stack": "HTML, CSS, JavaScript, Leaflet, Leaflet.GeometryUtil, Turfjs, ExtJS",
+      "tool": "Notepad++, Firefox",
+      "path": "projects/web_map_app/projekt_leaflet.html, projects/web_map_app/projekt_leaflet_extjs.html",
+      "url": "https://github.com/ofk16fsm/DVG508/tree/main/Projekt"
+    },
+    {
+      "title": "Filofax",
+      "description": "The project was based on to create an application for saving daily notes. The application was created for two variants which were console and GUI (Graphical User Interface). The GUI variant was my first GUI application. The GUI variant was created with Tkinter.",
+      "tech_stack": "Python",
+      "tool": "Python Idle",
+      "url": "https://github.com/ofk16fsm/filofax"
+    }]
+}]
