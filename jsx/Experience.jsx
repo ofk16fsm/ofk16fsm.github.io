@@ -5,7 +5,7 @@ class Experience extends React.Component{
 
     listItemStyle = {
         overflow: "auto",
-        height: "442px"
+        height: "400px"
     }
     
     render(){

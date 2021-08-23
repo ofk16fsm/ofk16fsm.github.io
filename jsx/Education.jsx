@@ -5,7 +5,7 @@ class Education extends React.Component{
     
     listItemStyle = {
         overflow: "auto",
-        height: "500px"
+        height: "460px"
     }
 
     render(){
