@@ -13,11 +13,12 @@ body {
 
 #home {padding-top:75px;height:395px;color: darkred; background-color: #FFFFF0;}
 #about {padding-top:80px;height:615px;color: darkred; background-color: #FFFFF0;}
-#education {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
-#experience {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
-#skill {padding-top:80px;height:615px;color: #fff; background-color: #FFFFF0;}
-#portfolio {padding-top:75px;height:615px;color: #fff; background-color: #FFFFF0;}
-#cv {padding-top:75px;height:650px;color: darkred; background-color:#FFFFF0}
+#education {padding-top:70px;height:615px;color: darkred; background-color: #FFFFF0;}
+#experience {padding-top:80px;height:615px;color: darkred; background-color: #FFFFF0;}
+#skill {padding-top:80px;height:615px;color: darkred; background-color: #FFFFF0;}
+#portfolio {padding-top:75px;height:615px;color: darkred; background-color: #FFFFF0;}
+#cv {padding-top:60px;height:615px;color: darkred; background-color:#FFFFF0}
+#blog {padding-top:75px;height:640px;color: darkred; background-color:#FFFFF0}
 
 .list-group-item{
   border: none;
@@ -117,6 +118,8 @@ a {
 }
 
 .card{
+  display: flex;
+  flex-flow: column wrap;
   background-color: gray;
   border: none;
   margin-inline: 3px;
@@ -132,18 +135,18 @@ a {
 
 .fa-github-square{
   color: mintCream;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .fa-link{
   color: mintCream;
-  font-size: 36px;
+  font-size: 30px;
   transform: rotate(-90deg);
 }
 
 .card-body{
   position: relative;
-  height: 20rem;
+  height: 22rem;
 }
 
 .portfolio-btn{
@@ -159,7 +162,7 @@ a {
   margin-inline: 4px;
   text-decoration: none;
   display: grid;
-  font-size: 14px;
+  font-size: 10px;
   margin: 4px 2px;
 }
 

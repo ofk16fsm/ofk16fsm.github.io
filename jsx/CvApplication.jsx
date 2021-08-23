@@ -9,6 +9,6 @@ class CvApplication extends React.Component{
             React.createElement("h1", {className: "header"}, "CV",
             React.createElement("div", {className: "underline"})),
             React.createElement("div", {className: "cv"},
-            React.createElement("iframe", {src:"data/cv.pdf", type:"application/pdf",frameBorder: "0", scrolling:"auto", height: "600px", width: "800px"}))));
+            React.createElement("iframe", {src:"data/cv.pdf", type:"application/pdf",frameBorder: "0", scrolling:"auto", height: "500px", width: "800px"}))));
     }
 }
