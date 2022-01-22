@@ -10,7 +10,7 @@
         },
         {
             "category": "back-end",
-            "keywords": ["Django", "REST API, ExpressJS, ASP.NET"]
+            "keywords": ["Django", "REST API", "ExpressJS", "ASP.NET"]
         },
         {
             "category": "database",
