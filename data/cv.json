@@ -2,15 +2,15 @@
     "skills":[
         {
             "category": "programming languages",
-            "keywords": ["Java", "Python (Numpy)", "CSharp (.NET)", "JavaScript (jQuery)", "Kotlin", "Matlab"]
+            "keywords": ["Java", "Python (Numpy)", "CSharp (.NET)", "JavaScript (jQuery)", "Kotlin", "Matlab", "LaTeX"]
         },
         {
             "category" : "front-end",
-            "keywords": ["ReactJS", "Bootstrap", "Dojo toolkit", "ExtJS"]
+            "keywords": ["Tkinter", "WPF", "WinForms", "ReactJS", "Bootstrap", "Dojo toolkit", "ExtJS"]
         },
         {
             "category": "back-end",
-            "keywords": ["Django", "REST API"]
+            "keywords": ["Django", "REST API", "ExpressJS", "ASP-NET Core"]
         },
         {
             "category": "database",
@@ -22,7 +22,7 @@
         },
         {
             "category": "design software",
-            "keywords": ["Eclipse", "Visual Studio", "PyCharm", "Intellij Idea", "Notepad++", "Microsoft Office", "LibreOffice", "LaTeX"]
+            "keywords": ["Eclipse", "Visual Studio", "PyCharm", "Intellij Idea", "Notepad++", "Microsoft Office", "LibreOffice"]
         },
         {
             "category": "languages",
@@ -64,7 +64,10 @@
     ],
     "works": [{
             "company": "Restaurang Meza", "position": "Waiter", "location": "Uppsala/Sweden", "startDate": "Mar. 2013", "endDate" : "Oct. 2015"
-        }
+        },
+		{
+			"company": "Malmö University", "position": "Teaching assistant", "location": "Malmö/Sweden", "startDate": "Feb. 2022", "endDate": ""
+		}
     ],
     "projects": [{
       "title": "Flood application",

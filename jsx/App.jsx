@@ -22,7 +22,7 @@ class App extends React.Component{
       
       
       render(){
-         return(React.createElement("div", null,
+         return(React.createElement("div", {},
          React.createElement(Navbar),
          
          React.createElement(Home,{data:this.state.data}),
