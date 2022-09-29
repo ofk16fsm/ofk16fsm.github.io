@@ -2,7 +2,7 @@
     "skills":[
         {
             "category": "programming languages",
-            "keywords": ["Java", "Python (Numpy)", "CSharp (.NET)", "JavaScript (jQuery)", "Kotlin", "Matlab", "LaTeX"]
+            "keywords": ["Java", "Python (Numpy)", "CSharp (.NET)", "JavaScript (jQuery)", "Typescript", "Kotlin", "Matlab", "LaTeX"]
         },
         {
             "category" : "front-end",
