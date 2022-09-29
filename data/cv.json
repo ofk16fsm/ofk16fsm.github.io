@@ -42,15 +42,21 @@
             "url": "https://www.sololearn.com/Profile/2352584", "title": "SoloLearn", "img": "icons/sololearn.ico"
         }
  ],
- "educations": [{
-
+ "educations": [
+        {
+            "program": "IT Systems Development in Geographical Information Systems", "course": "", "institution": "University of Gävle", "location": "Gävle, Sweden", "startDate": "Sep. 2016", "endDate": "", "description": ["IT System Development in Geographical Information Systems focuses on the development of software and systems with a special direction on geographical information systems (GIS)."]
+        },
+        {
+            "program": "", "course": "Web Development II - Client", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Aug. 2021", "endDate": "Jan. 2022", "description": ["Development of basic skills in web programming with a focus on the client side. To produce web applications based on current standards and web technologies"]
+        },
+        {
+            "program": "", "course": "Programming in C#", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Aug. 2021", "endDate": "Jan. 2022", "description": ["Development of basic programming skills to build well-structured applications. To use .NET framework to develop useful programs with graphical user interface"]
+        },
+        {
             "program": "", "course": "Programming techniques", "institution": "Stockholm University","location": "Stockholm, Sweden", "startDate": "Oct. 2017", "endDate": "Nov. 2018", "description": ["Basic computer science concepts and processes: data structures and simple graphics."]
         },
         {
             "program": "", "course": "Preparation Course in Programming and Computer Science", "institution": "Royal Institute of Technology",  "location": "Stockholm, Sweden", "startDate": "Mar. 2017", "endDate": "Mar. 2017", "description": ["Basic knowledge of computer and programming in Python."]
-        },
-        {
-            "program": "IT Systems Development in Geographical Information Systems", "course": "", "institution": "University of Gävle", "location": "Gävle, Sweden", "startDate": "Sep. 2016", "endDate": "", "description": ["IT System Development in Geographical Information Systems focuses on the development of software and systems with a special direction on geographical information systems (GIS)."]
         },
         {
             "program": "", "course": "History of Mathematics", "institution": "Uppsala University", "location": "Uppsala, Sweden", "startDate": "Feb. 2016", "endDate": "Jun. 2016", "description": ["How mathematic has evolved through the times."]
