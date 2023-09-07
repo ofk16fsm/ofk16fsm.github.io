@@ -47,14 +47,14 @@
             "program": "IT Systems Development in Geographical Information Systems", "course": "", "institution": "University of Gävle", "location": "Gävle, Sweden", "startDate": "Sep. 2016", "endDate": "", "description": ["IT System Development in Geographical Information Systems focuses on the development of software and systems with a special direction on geographical information systems (GIS)."]
         },
         {
-            "program": "", "course": "Web Development II - Client", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Aug. 2021", "endDate": "Jan. 2022", "description": ["Development of basic skills in web programming with a focus on the client side. To produce web applications based on current standards and web technologies"]
-        },
-        {
             "program": "", "course": "Programming in C# II", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Feb. 2023",	"endDate": "Jun. 2023", "description": ["Development of in depth knowledge of programming using the C# language and the .NET Framework's advanced data structures, encapsulation, inheritance, delegates, events and polymorphism. Advanced user interfaces using WPF or MAUI."]
 
         },
         {
             "program": "", "course": "Programming in C#", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Aug. 2021", "endDate": "Jan. 2022", "description": ["Development of basic programming skills to build well-structured applications. To use .NET framework to develop useful programs with graphical user interface"]
+        },
+        {
+            "program": "", "course": "Web Development II - Client", "institution": "Malmö University",  "location": "Malmö, Sweden", "startDate": "Aug. 2021", "endDate": "Jan. 2022", "description": ["Development of basic skills in web programming with a focus on the client side. To produce web applications based on current standards and web technologies"]
         },
         {
             "program": "", "course": "Programming techniques", "institution": "Stockholm University","location": "Stockholm, Sweden", "startDate": "Oct. 2017", "endDate": "Nov. 2018", "description": ["Basic computer science concepts and processes: data structures and simple graphics."]
